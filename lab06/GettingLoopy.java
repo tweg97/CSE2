@@ -24,10 +24,10 @@
         
         System.out.println("Step 2:");
         int start = 11;
-        int something = start % 2;
+        int factor = 1;
         
-            while (something == 2 && start < 101){
-            System.out.print(start);
+            while (start < 101){
+            System.out.print();
             start++;
         }
         

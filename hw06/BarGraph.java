@@ -295,7 +295,7 @@ public class BarGraph {
         
         int multiplier = 0;
         
-        if (percent > 0 && percent <= 20) {
+        if (percent > 0 && percent <= 20) 
             multiplier = percent / 100 + 1;
         }
         else if (percent > 20 && percent <= 40){
